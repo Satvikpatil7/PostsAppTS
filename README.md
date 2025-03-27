@@ -2,13 +2,13 @@
 
 A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetch` hook to fetch and display posts.
 
-## ## \u🚀 Tech Stack
+## \u🚀 Tech Stack
 - **Vite** - Fast development build tool
 - **React + TypeScript** - Frontend framework
 - **MUI** - UI components
 - **pnpm** - Package manager
 
-## ## \u📦 Installation
+## \u📦 Installation
 
 1. **Clone the repository**  
    ```sh
@@ -26,7 +26,7 @@ A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetc
    pnpm dev
    ```
 
-## ## \u📜 Features
+##  \u📜 Features
 - Custom `useFetch` hook for data fetching
 - Fetches posts from JSONPlaceholder API
 - Uses MUI for styling
@@ -38,20 +38,20 @@ To build for production:
 pnpm build
 ```
 
-## ## \u📄 License
+##  \u📄 License
 MIT
 
 # PostsApp
 
 A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetch` hook to fetch and display posts.
 
-## ## \u🚀 Tech Stack
+##  \u🚀 Tech Stack
 - **Vite** - Fast development build tool
 - **React + TypeScript** - Frontend framework
 - **MUI** - UI components
 - **pnpm** - Package manager
 
-## ## \u📦 Installation
+##  \u📦 Installation
 
 1. **Clone the repository**  
    ```sh
@@ -69,7 +69,7 @@ A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetc
    pnpm dev
    ```
 
-## ## \u📜 Features
+## \u📜 Features
 - Custom `useFetch` hook for data fetching
 - Fetches posts from JSONPlaceholder API
 - Uses MUI for styling
