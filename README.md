@@ -12,7 +12,7 @@ A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetc
 
 1. **Clone the repository**  
    ```sh
-   git clone [https://github.com/yourusername/PostsApp.git](https://github.com/Satvikpatil7/PostsAppTS.git)
+   git clone https://github.com/Satvikpatil7/PostsAppTS.git
    cd PostsApp
    ```
 
