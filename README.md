@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+# PostsApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetch` hook to fetch and display posts.
 
-Currently, two official plugins are available:
+## ## \u🚀 Tech Stack
+- **Vite** - Fast development build tool
+- **React + TypeScript** - Frontend framework
+- **MUI** - UI components
+- **pnpm** - Package manager
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ## \u📦 Installation
 
-## Expanding the ESLint configuration
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/PostsApp.git
+   cd PostsApp
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+2. **Install dependencies**  
+   ```sh
+   pnpm install
+   ```
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+3. **Start the development server**  
+   ```sh
+   pnpm dev
+   ```
+
+## ## \u📜 Features
+- Custom `useFetch` hook for data fetching
+- Fetches posts from JSONPlaceholder API
+- Uses MUI for styling
+- Refresh button to re-fetch posts
+
+## ## \u🛠 Build & Deploy
+To build for production:  
+```sh
+pnpm build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ## \u📄 License
+MIT
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# PostsApp
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+A simple React app built with Vite, TypeScript, and MUI, using a custom `useFetch` hook to fetch and display posts.
+
+## ## \u🚀 Tech Stack
+- **Vite** - Fast development build tool
+- **React + TypeScript** - Frontend framework
+- **MUI** - UI components
+- **pnpm** - Package manager
+
+## ## \u📦 Installation
+
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/yourusername/PostsApp.git
+   cd PostsApp
+   ```
+
+2. **Install dependencies**  
+   ```sh
+   pnpm install
+   ```
+
+3. **Start the development server**  
+   ```sh
+   pnpm dev
+   ```
+
+## ## \u📜 Features
+- Custom `useFetch` hook for data fetching
+- Fetches posts from JSONPlaceholder API
+- Uses MUI for styling
+- Refresh button to re-fetch posts
+
